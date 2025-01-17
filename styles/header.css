@@ -78,3 +78,43 @@
         height: auto;
     }
 }
+
+@media (max-width: 760px) {
+    .header__container {
+        background-image: url(../resources/restaurant-760.svg);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom 6px;
+      
+    }
+
+    
+    .header__container-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .header__container-text {
+        row-gap: 40px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .header__container {
+        height: 640px;
+        background-image: url(../resources/restaurant-760.svg);
+        background-repeat: no-repeat;
+        background-position: right 50% bottom 6px;
+      
+    }
+
+
+    .header__container-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .header__container-title span {
+        padding: 0 5px 0px 5px;
+    }
+}
