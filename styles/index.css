@@ -1,0 +1,45 @@
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 15px;
+   
+}
+
+body {
+    font-family: "Roboto Slab", "PT Sans";
+    background: linear-gradient(to right, #E65C00, #F9D423);
+}
+
+
+
+p,
+a,
+div,
+section {
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+h1, 
+h2,
+h3 {
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+@media (max-width: 1460px) {
+    .container {
+        width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+}
+
