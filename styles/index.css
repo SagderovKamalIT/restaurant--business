@@ -34,12 +34,4 @@ h3 {
     letter-spacing: 0;
 }
 
-@media (max-width: 1460px) {
-    .container {
-        width: 100%;
-        padding-left: 18px;
-        padding-right: 18px;
-    }
-
-}
 
