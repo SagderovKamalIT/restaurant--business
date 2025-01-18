@@ -1,85 +1,78 @@
 .header {
-    padding: 35px 0 60px 0;
-    /* background-image: url(../resources/line.png);
-    background-repeat: no-repeat;
-    background-position: left 10px top 0; */
-
+  padding: 35px 0 60px 0;
+ 
 }
 
 .header__container {
-    display: flex;
-    position: relative;
-    background-image: url(../resources/restaurant+.png);
-    background-repeat: no-repeat;
-    background-position: right 0px bottom -8px;
-  
+  display: flex;
+  position: relative;
+  background-image: url(../resources/restaurant+.png);
+  background-repeat: no-repeat;
+  background-position: right 0px bottom -8px;
 }
 
 .header__container-text {
-    display: flex;
-    flex-direction: column;
-    row-gap: 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
 }
 
 .header__container-title {
-    overflow: hidden;
-    font-size: 60px;
-    line-height: 127%;
-    animation: typing 5s steps(50, end) forwards;
-    white-space: nowrap;
-    margin-bottom: 65px;
+  overflow: hidden;
+  font-size: 60px;
+  line-height: 127%;
+  animation: typing 5s steps(50, end) forwards;
+  white-space: nowrap;
+  margin-bottom: 65px;
 }
 
 .header__container-title span {
-    padding: 0 15px 10px 15px;
-    background: #DDFF00; 
+  padding: 0 15px 10px 15px;
+  background: #ddff00;
 }
 
 .header__container-paragraph {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 1250px) {
-
-    .header__container {
-        background-image: url(../resources/restaurant.png);
-        background-repeat: no-repeat;
-        background-position: right 0px bottom -6px;
-      
-    }
-    .header__container-title {
-        font-size: 45px;
-    }
+  .header__container {
+    background-image: url(../resources/restaurant.png);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom -6px;
+  }
+  .header__container-title {
+    font-size: 45px;
+  }
 }
 
-@media(max-width: 960px) {
-    .header__container {
-        background-image: url(../resources/restaurant-tablet.png);
-        background-repeat: no-repeat;
-        background-position: right 0px bottom -6px;
-      
-    }
+@media (max-width: 960px) {
+  .header__container {
+    background-image: url(../resources/restaurant-tablet.png);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom -6px;
+  }
 
-    .header__container-text {
-        row-gap: 40px;
-    }
+  .header__container-text {
+    row-gap: 40px;
+  }
 
-    .header__container-title {
-        font-size: 33px;
-        line-height: 119%;
-    }
+  .header__container-title {
+    font-size: 33px;
+    line-height: 119%;
+  }
 
-    .header__container-title span {
-        padding: 0 10px 5px 10px;
-    }
+  .header__container-title span {
+    padding: 0 10px 5px 10px;
+  }
 
-    .header__container-logo {
-        width: 120px;
-        height: auto;
-    }
+  .header__container-logo {
+    width: 120px;
+    height: auto;
+  }
 }
 
-@media (max-width: 760px) {
+ @media (max-width: 760px) {
     .header__container {
         background-image: url(../resources/restaurant-760.svg);
         background-repeat: no-repeat;
@@ -117,4 +110,4 @@
     .header__container-title span {
         padding: 0 5px 0px 5px;
     }
-}
+} 
