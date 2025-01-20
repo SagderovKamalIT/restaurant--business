@@ -1,0 +1,258 @@
+.program__container {
+  padding: 40px 20px 20px 20px;
+  background-color: #fffefe;
+  border-radius: 35px;
+}
+
+.program__title {
+  font-size: 60px;
+  line-height: 127%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.program__title span {
+  padding: 0 15px 10px 15px;
+  background: #ddff00;
+}
+.program__list {
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.program__image-idea {
+  position: absolute;
+  top: -150px;
+  left: -40px;
+}
+
+.program__image-cook {
+  position: absolute;
+  bottom: -175px;
+  left: 190px;
+}
+
+.program__image-reward {
+  position: absolute;
+  bottom: 300px;
+  right: -35px;
+}
+
+
+.program__list-elem {
+  width: calc(50% - 10px);
+}
+
+.program__list-container {
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.list__container-first {
+  padding: 420px 35px 35px 35px;
+  background-color: #8b2ae1;
+}
+
+.list__container-third {
+  padding: 35px 35px 340px 35px;
+  background-color: #0079c1;
+}
+
+.list__container-second {
+  padding: 35px 35px 190px 35px;
+  height: 490px;
+  margin-top: 140px;
+  background-color: #07ab4b;
+}
+
+.list__container-fourth {
+  padding: 160px 35px 35px 35px;
+  background-color: #5e0de0;
+}
+
+.program__list-title {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.program__list-paragraph {
+  width: 490px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 112%;
+}
+
+@media (max-width: 1250px) {
+  .program__title {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+
+  .program__list-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+  }
+
+  .program__list-paragraph {
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .list__container-first {
+    padding: 370px 25px 29px 25px;
+  }
+
+  .list__container-second {
+    padding: 25px 25px 190px 25px;
+    height: 389px;
+  }
+
+  .list__container-third {
+    padding: 25px 25px 290px 25px;
+  }
+
+  .list__container-fourth {
+    padding: 110px 25px 25px 25px;
+  }
+
+  .program__image-idea {
+    width: auto;
+    height: 570px;
+  }
+
+  .program__image-reward {
+    width: 390px;
+    height: auto;
+  }
+
+  .program__image-cook {
+    width: 530px;
+    bottom: -175px;
+    left: 140px;
+  }
+}
+
+@media (max-width: 980px) {
+  .program__container {
+    padding: 25px 15px 15px 15px;
+    border-radius: 25px;
+  }
+  .program__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .program__list {
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+
+  .program__list-elem {
+    width: calc(50% - 8px);
+  }
+
+  .program__list-title {
+    font-size: 25px;
+    margin-bottom: 7px;
+  }
+
+  .program__list-paragraph {
+    font-size: 19px;
+    width: 280px;
+    line-height: 109%;
+  }
+
+  .list__container-first {
+    padding: 313px 20px 20px 20px;
+  }
+
+  .list__container-second {
+    padding: 20px 20px 150px 20px;
+    height: 349px;
+  }
+
+  .list__container-third {
+    padding: 20px 20px 240px 20px;
+  }
+
+  .list__container-fourth {
+    padding: 90px 20px 20px 20px;
+  }
+
+  .program__image-idea {
+    height: 500px;
+    top: -115px;
+  }
+
+  .program__image-reward {
+    width: 345px;
+    right: -28px;
+  }
+
+  .program__image-cook {
+    width: 475px;
+    bottom: -135px;
+    left: 75px;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .program__container {
+    padding: 20px 10px 10px 10px;
+    border-radius: 30px;
+  }
+
+  .program__title{
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .program__title span {
+      padding: 0 10px 5px 10px;
+  }
+
+  .program__list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .program__list-elem,
+  .program__list-container,
+  .program__list-paragraph,
+  .program__list-title  {
+    width: 100%;
+  }
+
+
+  .program__list-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .program__list-paragraph {
+    font-size: 18px;
+  }
+
+
+  .list__container-first,
+  .list__container-second,
+  .list__container-third,
+  .list__container-fourth {
+    border-radius: 20px;
+   padding: 15px;
+   height: auto;
+   margin: 0;
+  }
+
+  .program__image-idea,
+  .program__image-cook,
+  .program__image-reward {
+      width: 0;
+  }
+}
