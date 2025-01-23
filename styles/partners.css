@@ -5,12 +5,17 @@
 
 .partners__container {
     position: relative;
-    padding: 40px 0px 20px 0px;
+    padding: 40px 0px 40px 0px;
+}
+
+.partners__container-span {
+background: #FF700E !important; 
 }
 
 .partners__title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 
@@ -80,7 +85,7 @@
 
 @media (max-width: 760px) {
     .partners__container {
-        padding: 25px 0px 20px 0px;
+        padding: 25px 0px 25px 0px;
     }
 
     .slider-track {
