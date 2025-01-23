@@ -69,7 +69,7 @@
 
 .whom__image-flower {
     position: absolute;
-    bottom: -70%;
+    bottom: -60%;
     left: -10%;
 }
 
@@ -196,7 +196,7 @@
     }
 
     .whom__container-title {
-        font-size: 22px;
+        font-size: 25px;
         margin-bottom: 15px;
     }
 
@@ -260,7 +260,7 @@
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
     .whom__container-paragraph {
         width: 62%;
     }
