@@ -1,3 +1,8 @@
+.about__program {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .program__container {
   padding: 40px 20px 20px 20px;
   background-color: #fffefe;
@@ -11,10 +16,6 @@
   text-align: center;
 }
 
-.program__title span {
-  padding: 0 15px 10px 15px;
-  background: #ddff00;
-}
 .program__list {
   position: relative;
   list-style: none;
@@ -89,7 +90,6 @@
 
 @media (max-width: 1250px) {
   .program__title {
-    font-size: 45px;
     margin-bottom: 40px;
   }
 
@@ -143,7 +143,6 @@
     border-radius: 25px;
   }
   .program__title {
-    font-size: 35px;
     margin-bottom: 30px;
   }
 
@@ -203,19 +202,19 @@
 
 @media (max-width: 760px) {
 
+  .about__program {
+    padding-bottom: 37px;
+  }
+
   .program__container {
     padding: 20px 10px 10px 10px;
     border-radius: 30px;
   }
 
   .program__title{
-    font-size: 24px;
     margin-bottom: 25px;
   }
 
-  .program__title span {
-      padding: 0 10px 5px 10px;
-  }
 
   .program__list {
     flex-direction: column;

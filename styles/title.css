@@ -1,0 +1,38 @@
+.title {
+    font-size: 60px;
+    line-height: 127%;
+   
+}
+
+.title span {
+    padding: 0 15px 10px 15px;
+    background: #ddff00;
+}
+
+@media (max-width: 1250px) {
+
+    .title {
+        font-size: 45px;
+    }
+  
+}
+
+@media (max-width: 980px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .title span {
+        padding: 0 10px 5px 10px;
+    }
+}
+
+@media (max-width: 760px) {
+    .title {
+        font-size: 24px;
+    }
+    
+    .title span {
+        padding: 0 10px 5px 10px;
+    }
+}
