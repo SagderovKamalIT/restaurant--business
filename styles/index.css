@@ -6,6 +6,7 @@
 @import url(../styles/points.css);
 @import url(../styles/partners.css);
 @import url(../styles/aplication.css);
+@import url(../styles/footer.css);
 
 html {
     scroll-behavior: smooth;
