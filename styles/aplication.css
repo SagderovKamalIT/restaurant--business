@@ -1,0 +1,134 @@
+.aplication__section {
+    padding: 50px 0 50px 0;
+    background-image: url(../resources/aplication__line.png), url(../resources/aplication__line2.png), url(../resources/aplication__line3.png);
+    background-position: left 0px top -60px, top -187px right 0, top 0px right 0;
+    background-repeat: no-repeat;
+}
+
+.aplication__container {
+    position: relative;
+    padding: 40px 15px 40px 15px;
+}
+
+.aplication__container-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.aplication__container-span {
+    background: #6025F5 !important; 
+}
+
+.aplication__container-paragraph {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.aplication__container-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 24px;
+    width: 300px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #6025F5;
+}
+
+
+@media (max-width: 1250px) {
+
+
+    .aplication__container-title {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .aplication__container-paragraph {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .aplication__container-button {
+        font-size: 22px;
+        padding: 18px 35px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .aplication__section {
+        padding: 40px 0;
+        background-image: url(../resources/aplication__line.png), url(../resources/aplication__line2.png), url(../resources/aplication__line3.png);
+        background-position: left 0px top -60px, top -135px right 0, top -58px right 0;
+        background-size: 367px, 265px, 350px;
+    }
+
+    .aplication__container-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .aplication__container-paragraph {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .aplication__container-button {
+        font-size: 20px;
+        padding: 15px 30px;
+        width: 260px;
+    }
+}
+
+@media (max-width: 760px) {
+    .aplication__section {
+        padding: 35px 0;
+    }
+
+    .aplication__container-title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .aplication__container-paragraph {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .aplication__container-button {
+        font-size: 18px;
+        padding: 12px 25px;
+        width: 240px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .aplication__section {
+        padding: 40px 0;
+        background-image: url(../resources/aplication__line.png), url(../resources/aplication__line2.png), url(../resources/aplication__line3.png);
+        background-position: left -29px top -55px, top -140px right -52px, top -15px right 0;
+        background-size: 367px, 265px, 300px;
+    }
+    .aplication__container-title {
+        font-size: 22px;
+    }
+
+    .aplication__container-paragraph {
+        font-size: 18px;
+    }
+
+    .aplication__container-button {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 220px;
+    }
+}

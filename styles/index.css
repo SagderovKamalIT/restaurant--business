@@ -5,6 +5,7 @@
 @import url(../styles/container.css);
 @import url(../styles/points.css);
 @import url(../styles/partners.css);
+@import url(../styles/aplication.css);
 
 html {
     scroll-behavior: smooth;
@@ -28,7 +29,8 @@ body {
 p,
 a,
 ul,
-li {
+li,
+button {
     font-family: "PT Sans";
     letter-spacing: -0.02em;
     font-weight: 400;
