@@ -1,5 +1,5 @@
 .header {
-  padding-top: 35px;
+  padding-top: 37px;
  
 }
 
@@ -74,20 +74,24 @@
     }
 
     .header__container-text {
-        row-gap: 40px;
+        row-gap: 25px;
     }
 
 }
 
 @media (max-width: 500px) {
     .header__container {
-        height: 640px;
+        height: 655px;
         background-image: url(../resources/restaurant-760.svg);
         background-repeat: no-repeat;
         background-position: right 50% bottom 6px;
+        display: block;
       
     }
 
+    .header__container-paragraph {
+      margin: 0 auto;
+    }
 
     .header__container-title {
         margin-bottom: 15px;

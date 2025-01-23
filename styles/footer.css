@@ -153,7 +153,7 @@
 
     .footer {
         background-position: left -65px bottom -60px, right -40px bottom -34px;
-        background-size: 700px, 0;
+        background-size: 675px, 0;
     }
 
     .footer__contacts {
@@ -172,7 +172,7 @@
     }
 
     .footer__container-link img {
-        width: 200px;
+        width: 190px;
         margin-left: 120px; 
       }
   }
