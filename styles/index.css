@@ -3,6 +3,7 @@
 @import url(../styles/whom.css);
 @import url(../styles/title.css);
 @import url(../styles/container.css);
+@import url(../styles/points.css);
 
 html {
     scroll-behavior: smooth;
