@@ -1,5 +1,5 @@
 .header {
-  padding: 35px 0 60px 0;
+  padding-top: 35px;
  
 }
 
@@ -18,18 +18,10 @@
 }
 
 .header__container-title {
-  overflow: hidden;
-  font-size: 60px;
-  line-height: 127%;
-  animation: typing 5s steps(50, end) forwards;
-  white-space: nowrap;
   margin-bottom: 65px;
 }
 
-.header__container-title span {
-  padding: 0 15px 10px 15px;
-  background: #ddff00;
-}
+
 
 .header__container-paragraph {
   margin-bottom: 15px;
@@ -58,17 +50,13 @@
   }
 
   .header__container-title {
-    font-size: 33px;
     line-height: 119%;
   }
 
-  .header__container-title span {
-    padding: 0 10px 5px 10px;
-  }
+
 
   .header__container-logo {
     width: 120px;
-    /* height: auto; */
   }
 } 
 
@@ -82,7 +70,6 @@
 
     
     .header__container-title {
-        font-size: 24px;
         margin-bottom: 30px;
     }
 
@@ -103,11 +90,8 @@
 
 
     .header__container-title {
-        font-size: 24px;
         margin-bottom: 15px;
     }
 
-    .header__container-title span {
-        padding: 0 5px 0px 5px;
-    }
+  
 } 
