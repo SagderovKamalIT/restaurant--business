@@ -1,5 +1,5 @@
 .points__section {
-    padding: 50px 0 100px 0;
+    padding-top: 50px;
 }
 
 .points__container {
@@ -156,11 +156,12 @@ margin-bottom: 10px;
 
 @media (max-width: 760px) {
     .points__section {
-        padding: 37px 0 74px 0;
+        padding-top: 37px;
     }
 
     .points__container {
         padding: 25px 20px;
+        overflow: hidden;
         
     }
 
@@ -186,15 +187,16 @@ margin-bottom: 10px;
     }
 
     .points__container-img {
-        height: 481px;
-        right: -42px;
+        height: 460px;
+        right: -40px;
         top: 315px;
     }
+    
 }
 
 @media (max-width: 560px) {
     .points__container-img {
-        top: 426px;
+        top: 455px;
     }
     
     .points__line-left {

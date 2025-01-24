@@ -70,7 +70,7 @@
 }
 
 .whom__image-flower {
-  bottom: -60%;
+  bottom: -49%;
   left: -10%;
 }
 
@@ -112,7 +112,7 @@
     right: 14%;
   }
   .whom__image-flower {
-    width: 640px;
+    width: 569px;
   }
   .whom__image-abstraction {
     width: 480px;
@@ -152,7 +152,7 @@
     width: 305px;
   }
   .whom__image-flower {
-    width: 550px;
+    width: 499px;
   }
   .whom__image-abstraction {
     width: 410px;
@@ -165,7 +165,7 @@
   }
 
   .whom__section-container {
-    padding: 0; /* Убираем padding */
+    padding: 0;
   }
 
   .whom__title {
@@ -180,8 +180,8 @@
   }
 
   .whom__list-elem:last-child:nth-child(2n + 1) {
-     margin: 0 auto;
-}
+    margin: 0 auto;
+  }
 
   .whom__list-elem {
     width: 100%;
@@ -202,6 +202,7 @@
     line-height: 1.2;
     margin-bottom: 20px;
     text-align: center;
+  
   }
 
   .whom__container-paragraph {
@@ -209,30 +210,29 @@
     line-height: 1.4;
     width: 100%;
     text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(255,112,14, 0.6);
   }
-
-  
 
   .whom__image-restaurant,
   .whom__image-flower,
-  .whom__image-abstraction{
+  .whom__image-abstraction {
     width: 0;
-}
+  }
 
-.whom__image-rocket {
-  position: absolute;
-  width: 170px;
-  top: 53%;
-  right: 5%;
-}
+  .whom__image-rocket {
+    position: absolute;
+    width: 170px;
+    top: 53%;
+    right: 5%;
+  }
   .whom__image-plate {
     position: absolute;
     bottom: 52%;
     right: 65%;
     width: 200px;
   }
-
- 
 }
 
 @media (max-width: 560px) {
@@ -241,7 +241,7 @@
   }
 
   .whom__section-container {
-    padding: 0; /* Убираем padding */
+    padding: 0;
   }
 
   .whom__title {
@@ -279,11 +279,9 @@
     text-align: center;
   }
 
-
-
   .whom__image-restaurant {
     width: 0;
-}
+  }
 
   .whom__image-rocket {
     position: absolute;
@@ -297,9 +295,5 @@
     width: 185px;
     bottom: 49%;
     right: 56%;
-
+  }
 }
-
-
-}
-
