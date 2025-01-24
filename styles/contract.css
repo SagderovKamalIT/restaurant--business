@@ -42,7 +42,8 @@
 
     .contracts__section {
         padding: 35px 0;
-        background-position: left 0px top -156px, top -141px right 0, top -187px right -29px
+        background-position: left 0px top -156px, top -141px right 0, top -187px right -29px;
+        overflow: hidden;
     }
     .contracts__container-title {
         font-size: 22px;

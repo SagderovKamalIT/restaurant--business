@@ -131,6 +131,7 @@
     .footer {
         background-position: left -50px bottom -60px, right -40px bottom -34px;
         background-size: 700px, 700px;
+        overflow: hidden;
     }
 
     .footer__contacts {
