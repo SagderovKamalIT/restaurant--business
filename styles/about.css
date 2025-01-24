@@ -326,7 +326,7 @@
 
   .program__title {
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .program__list {
@@ -373,12 +373,13 @@
     left: -9%;
   }
 
-  .program__image-cook {
-   
-    width: 350px;
-    left: 20%;
-    top: 78%;
 
+   
+    .program__image-cook {
+      width: 329px;
+      left: 20%;
+      top: 81%;
+  }
 }
-}
+
 
