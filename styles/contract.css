@@ -4,7 +4,7 @@
     background-image: url(../resources/arrow.svg);
     background-repeat: no-repeat;
     background-size: 400px;
-    background-position: top 142px left 240px;
+    background-position: top 142px left 315px;
 }
 
 .contracts__section-img {
@@ -113,7 +113,7 @@
     .contracts__section-img {
       width: 100%; 
       max-width: 400px;
-      right: -29px;
+      right: -9px;
       
     }
   
