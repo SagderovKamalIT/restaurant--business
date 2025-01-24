@@ -69,6 +69,58 @@
   right: 17%;
 }
 
+.whom__image-restaurant {
+  position: absolute;
+  width: 280px;
+  top: 9%;
+  left: 30%;
+  animation: float 5.5s ease-in-out infinite; 
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+}
+
+.whom__image-rocket {
+  position: absolute;
+  width: 297px;
+  top: -8%;
+  right: 3%;
+  animation: float-rocket 7.5s ease-in-out infinite; 
+}
+
+@keyframes float-rocket {
+  0%, 100% {
+    transform: translateY(0) rotate(0); 
+  }
+  50% {
+    transform: translateY(-15px) rotate(-2deg);
+  }
+}
+
+.whom__image-plate {
+  position: absolute;
+  width: 400px;
+  bottom: -2%;
+  right: 17%;
+  animation: rotate-plate 6s ease-in-out infinite; 
+}
+
+@keyframes rotate-plate {
+  0%, 100% {
+    transform: translateY(0) rotate(0); 
+  }
+  50% {
+    transform: translateY(-15px) rotate(-2deg);
+}
+}
+
+
 .whom__image-flower {
   bottom: -49%;
   left: -10%;
@@ -159,7 +211,9 @@
   }
 }
 
-@media (max-width: 760px) {
+
+
+ @media (max-width: 760px) {
   .whom__section {
     padding: 30px 0;
   }
@@ -209,7 +263,8 @@
 
   .whom__span {
     padding: 0 10px 5px 10px;
-    background: #FF700E;
+     background: #8B2AE1; 
+   
   }
 
   .whom__container-paragraph {
@@ -219,7 +274,7 @@
     text-align: center;
     color: #fff;
     border-radius: 5px;
-    background-color: rgba(255,112,14, 0.8);
+    background-color: rgba(96,37,245, 0.8);
   }
 
   .whom__image-restaurant,
@@ -303,4 +358,4 @@
     bottom: 49%;
     right: 56%;
   }
-}
+} 
