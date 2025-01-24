@@ -181,6 +181,7 @@
   .program__container {
     padding: 20px 10px;
     border-radius: 20px;
+    overflow: hidden;
   }
 
   .program__title {

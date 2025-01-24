@@ -7,6 +7,7 @@
 @import url(../styles/partners.css);
 @import url(../styles/aplication.css);
 @import url(../styles/footer.css);
+@import url(../styles/contract.css);
 
 html {
     scroll-behavior: smooth;
@@ -17,12 +18,13 @@ html {
     margin: 0 auto;
     padding: 0 15px;
    
+   
 }
 
 body {
     font-family: "Roboto Slab", "PT Sans";
     background: linear-gradient(to right, #E65C00, #F9D423);
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 
@@ -45,11 +47,18 @@ h3 {
     letter-spacing: 0;
 }
 
+
+
 @media (max-width: 640px) {
     .container {
         padding: 0 10px;
        
     }
+
+    button {
+        cursor: none;
+    }
+  
 }
 
 

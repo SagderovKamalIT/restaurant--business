@@ -31,7 +31,7 @@
 .aplication__container-button {
     display: block;
     margin: 0 auto;
-    padding: 20px 40px;
+    padding: 28px 40px;
     text-align: center;
     font-size: 24px;
     width: 300px;
@@ -57,7 +57,7 @@
 
     .aplication__container-button {
         font-size: 22px;
-        padding: 18px 35px;
+        padding: 25px 35px;
         width: 280px;
     }
 }
@@ -66,7 +66,7 @@
     .aplication__section {
         padding: 40px 0;
         background-image: url(../resources/aplication__line.png), url(../resources/aplication__line2.png), url(../resources/aplication__line3.png);
-        background-position: left 0px top -60px, top -135px right 0, top -58px right 0;
+        background-position: left 0px top -21px, top -135px right 0, top -58px right 0;
         background-size: 367px, 265px, 350px;
     }
 
@@ -82,7 +82,7 @@
 
     .aplication__container-button {
         font-size: 20px;
-        padding: 15px 30px;
+        padding: 20px 30px;
         width: 260px;
     }
 }
@@ -105,8 +105,9 @@
 
     .aplication__container-button {
         font-size: 18px;
-        padding: 12px 25px;
+        padding: 20px 25px;
         width: 240px;
+        cursor: none;
     }
 }
 
@@ -115,7 +116,7 @@
     .aplication__section {
         padding: 40px 0;
         background-image: url(../resources/aplication__line.png), url(../resources/aplication__line2.png), url(../resources/aplication__line3.png);
-        background-position: left -29px top -55px, top -140px right -52px, top -15px right 0;
+        background-position: left -29px top -38px, top -140px right -52px, top 10px right 0;
         background-size: 367px, 265px, 300px;
     }
     .aplication__container-title {
@@ -128,7 +129,7 @@
 
     .aplication__container-button {
         font-size: 16px;
-        padding: 10px 20px;
+        padding: 18px 20px;
         width: 220px;
     }
 }
