@@ -85,7 +85,7 @@
 
 @media (max-width: 500px) {
     .header__container {
-        height: 655px;
+        height: 700px;
         background-image: url(../resources/restaurant-760.svg);
         background-repeat: no-repeat;
         background-position: right 50% bottom 6px;
