@@ -52,29 +52,11 @@
 }
 
 .whom__image-restaurant {
-  width: 280px;
-  top: 9%;
-  left: 30%;
-}
-
-.whom__image-rocket {
-  width: 297px;
-  top: -8%;
-  right: 3%;
-}
-
-.whom__image-plate {
-  width: 400px;
-  bottom: -2%;
-  right: 17%;
-}
-
-.whom__image-restaurant {
   position: absolute;
   width: 280px;
   top: 9%;
   left: 30%;
-  animation: float 5.5s ease-in-out infinite; 
+  animation: float 4s ease-in-out infinite; 
 }
 
 @keyframes float {
@@ -86,12 +68,13 @@
   }
 }
 
+
 .whom__image-rocket {
   position: absolute;
   width: 297px;
   top: -8%;
   right: 3%;
-  animation: float-rocket 7.5s ease-in-out infinite; 
+  animation: float-rocket 5s ease-in-out infinite; 
 }
 
 @keyframes float-rocket {
@@ -108,7 +91,7 @@
   width: 400px;
   bottom: -2%;
   right: 17%;
-  animation: rotate-plate 6s ease-in-out infinite; 
+  animation: rotate-plate 6.5s ease-in-out infinite; 
 }
 
 @keyframes rotate-plate {
@@ -117,10 +100,8 @@
   }
   50% {
     transform: translateY(-15px) rotate(-2deg);
+  }
 }
-}
-
-
 .whom__image-flower {
   bottom: -49%;
   left: -10%;
@@ -263,7 +244,7 @@
     background-size: 400px;
     background-position: right -53px top -218px;
   }
-  }
+  
 
   .whom__container-title {
     font-size: 24px;
@@ -290,8 +271,10 @@
   .whom__image-rocket {
     width: 0;
   }
+}
 
- 
+
+
 @media (max-width: 560px) {
   .whom__section {
     padding: 20px 0;
@@ -350,6 +333,5 @@
     }
   }
 
- 
- 
-}
+
+
