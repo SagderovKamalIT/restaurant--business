@@ -258,9 +258,11 @@
     width: 380px;
     height: auto;
     z-index: 10;
-    top: 56%;
-    left: 35%;
+    left: 33%;
+    top: 80%;
 }
+
+
 
 
   .program__image-reward {
@@ -338,7 +340,7 @@
   .program__image-cook {
    
     width: 350px;
-    left: 31%;
+    left: 20%;
     top: 80%;
 
 }
