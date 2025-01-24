@@ -195,6 +195,7 @@
     background-image: url(../resources/line.png);
     background-repeat: no-repeat;
     background-size: 700px;
+    background-position: right -329px top 0;
   }
 
   .whom__container-title {
@@ -202,7 +203,13 @@
     line-height: 1.2;
     margin-bottom: 20px;
     text-align: center;
+    color: #fff;
   
+  }
+
+  .whom__span {
+    padding: 0 10px 5px 10px;
+    background: #FF700E;
   }
 
   .whom__container-paragraph {
@@ -212,7 +219,7 @@
     text-align: center;
     color: #fff;
     border-radius: 5px;
-    background-color: rgba(255,112,14, 0.6);
+    background-color: rgba(255,112,14, 0.8);
   }
 
   .whom__image-restaurant,

@@ -86,6 +86,7 @@ background: #FF700E !important;
 @media (max-width: 760px) {
     .partners__container {
         padding: 25px 0px 25px 0px;
+        overflow: hidden;
     }
 
     .slider-track {

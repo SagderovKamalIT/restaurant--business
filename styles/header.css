@@ -1,5 +1,6 @@
 .header {
   padding-top: 37px;
+  
  
 }
 
@@ -65,6 +66,7 @@
         background-image: url(../resources/restaurant-760.png);
         background-repeat: no-repeat;
         background-position: right 0px bottom 6px;
+        overflow: hidden;
       
     }
 

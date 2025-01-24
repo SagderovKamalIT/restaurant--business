@@ -90,6 +90,7 @@
 @media (max-width: 760px) {
     .aplication__section {
         padding: 35px 0;
+        overflow: hidden;
     }
 
     .aplication__container-title {
