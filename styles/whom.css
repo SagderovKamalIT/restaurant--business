@@ -246,10 +246,23 @@
     padding: 15px;
     background-color: #fff;
     border-radius: 25px;
-    background-image: url(../resources/line.png);
+   
+
+  }
+
+  .whom__container-rigth {
+    background-image: url(../resources/glass__flower.png);
     background-repeat: no-repeat;
-    background-size: 700px;
-    background-position: right -329px top 0;
+    background-size: 400px;
+    background-position: left -37px top -138px;
+  }
+  
+  .whom__container-left {
+    background-image: url(../resources/glass__abstraction.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right -53px top -218px;
+  }
   }
 
   .whom__container-title {
@@ -257,14 +270,7 @@
     line-height: 1.2;
     margin-bottom: 20px;
     text-align: center;
-    color: #fff;
   
-  }
-
-  .whom__span {
-    padding: 0 10px 5px 10px;
-     background: #8B2AE1; 
-   
   }
 
   .whom__container-paragraph {
@@ -274,29 +280,18 @@
     text-align: center;
     color: #fff;
     border-radius: 5px;
-    background-color: rgba(96,37,245, 0.8);
+    background-color: rgba(254, 135, 7, 0.9);
   }
 
   .whom__image-restaurant,
   .whom__image-flower,
-  .whom__image-abstraction {
+  .whom__image-abstraction,
+  .whom__image-plate,
+  .whom__image-rocket {
     width: 0;
   }
 
-  .whom__image-rocket {
-    position: absolute;
-    width: 170px;
-    top: 53%;
-    right: 5%;
-  }
-  .whom__image-plate {
-    position: absolute;
-    bottom: 52%;
-    right: 65%;
-    width: 200px;
-  }
-}
-
+ 
 @media (max-width: 560px) {
   .whom__section {
     padding: 20px 0;
@@ -330,8 +325,10 @@
   .whom__container-title {
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 24px;
     text-align: center;
+    background-color: rgba(130, 181, 105, 0.5);
+    width: 190px;
+    margin: 0 auto;
   }
 
   .whom__container-paragraph {
@@ -339,23 +336,20 @@
     line-height: 1.4;
     width: 100%;
     text-align: center;
+    margin-top: 24px;
   }
 
-  .whom__image-restaurant {
-    width: 0;
+  .whom__container-left {
+    background-size: 370px;
+    background-position: right -53px top -203px;
   }
 
-  .whom__image-rocket {
-    position: absolute;
-    width: 150px;
-    top: 53%;
-    right: 5%;
+  .whom__container-rigth {
+    background-size: 390px;
+        background-position: left -48px top -134px;
+    }
   }
 
-  .whom__image-plate {
-    position: absolute;
-    width: 185px;
-    bottom: 49%;
-    right: 56%;
-  }
-} 
+ 
+ 
+}

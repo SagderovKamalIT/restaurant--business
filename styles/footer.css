@@ -185,13 +185,13 @@
 
     @keyframes moveBackgroundsSmall {
         0% {
-          background-position: left -30px bottom -60px, right -35px bottom -55px;
+          background-position: left -45px bottom -60px, right -35px bottom -55px;
         }
         50% {
-          background-position: left -25px bottom -70px, right -30px bottom -45px;
+          background-position: left -40px bottom -70px, right -30px bottom -45px;
         }
         100% {
-          background-position: left -30px bottom -60px, right -35px bottom -55px;
+          background-position: left -45px bottom -60px, right -35px bottom -55px;
         }
       }
     
